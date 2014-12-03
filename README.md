@@ -1,6 +1,13 @@
-# org.apache.cordova.splashscreen
+# Fork from org.apache.cordova.splashscreen
 
-This plugin displays and hides a splash screen during application launch.
+This plugin displays and hides a splash screen during application launch. It is forked for custom logic of for iOS devices. The only change is that spinner indicator for iOS can be controlled for showing. 
+
+If you want the spinner to be shown add in global config.xml this preference line
+
+<preference name="shouldShowTopActivityIndicatorSpinnerSplash" value="true"/> 
+
+The default option is false
+
 
 ## Installation
 
