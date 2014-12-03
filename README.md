@@ -4,7 +4,7 @@ This plugin displays and hides a splash screen during application launch. It is 
 
 If you want the spinner to be shown add in global config.xml this preference line
 
-<preference name="shouldShowTopActivityIndicatorSpinnerSplash" value="true"/> 
+    <preference name="shouldShowTopActivityIndicatorSpinnerSplash" value="true"/> 
 
 The default option is false
 
